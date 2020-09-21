@@ -1,0 +1,26 @@
+{
+  "name": "restfull-api",
+  "version": "1.0.0",
+  "description": "Node Js RestFull API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ogur Uyanik",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "express": "^4.15.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.5"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "nodemon": "^1.11.0"
+  }
+}
